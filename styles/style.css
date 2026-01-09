@@ -85,7 +85,7 @@ h1 {
     color:#469165;
 }
 
-p {
+.h-paragraph {
     margin: 35px 300px;
     font-size: large;
     color: #ffffff;
@@ -102,3 +102,76 @@ p {
     background-color: white;
     color: #469165;
 }
+
+.note-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.note-heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.note-subheading {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #555555;
+}
+
+.note-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.c-paraphraph {
+    margin: 0 250px;
+    font-size: large;
+    color: #000000;
+
+}
+
+
+/* Second Brain Section Styles */
+.second-brain-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f5ee;
+    padding: 50px;
+}
+
+.sbs-img {
+    margin-right: 50px;
+}
+
+.sbs-content {
+    max-width: 400px;
+}
+
+.sbs-heading {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.sbs-paragraph {
+    font-size: 1.1em;
+    margin: 25px 0;
+    color: #333333;
+}
+
+.sbs-features {
+    margin: 15px 0;
+}
+
