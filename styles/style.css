@@ -166,7 +166,8 @@ h1 {
 }
 
 .sbs-paragraph {
-    font-size: 1.1em;
+    font-size: 1em;
+    text-align: justify;
     margin: 25px 0;
     color: #333333;
 }
@@ -175,3 +176,63 @@ h1 {
     margin: 15px 0;
 }
 
+/* Get Early Access Section Styles */
+.get-early-access-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #F7F6F2;
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+.geas-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.geas-paragraph {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.geas-terms {
+    font-size: 0.7em;
+    color: #777777;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+#circle {
+    color: #777777;
+    background-color: #777777;
+    width: 4px;
+    height:4px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #001931;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.footer-1st-part {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-bottom: 100px;
+    font-size: small;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 50px auto;
+    width: 80%;
+}
