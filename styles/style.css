@@ -61,6 +61,14 @@ button:hover {
     padding: 50px;
 }
 
+.fa-play {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+.fa-play:hover {
+    color: transparent;
+    -webkit-text-stroke: 2px #469165;
+}
 
 .h-button {
     margin-top: 20px;
@@ -103,9 +111,12 @@ h1 {
     color: #469165;
 }
 
+/* Note Section Styles */
 .note-section {
     text-align: center;
     padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .note-heading {
@@ -127,6 +138,14 @@ h1 {
     margin: 50px 0;
 }
 
+.note-img {
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    padding: 12px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
 .card {
     background-color: #f8f9fa;
     padding: 20px;
@@ -135,9 +154,16 @@ h1 {
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.c-paraphraph {
-    margin: 0 250px;
-    font-size: large;
+
+.c-heading {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #000000;
+
+}
+.c-paragraph {
+    margin: 0 25px;
+    font-size: 0.9em;
     color: #000000;
 
 }
