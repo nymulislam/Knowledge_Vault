@@ -1,0 +1,104 @@
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+ul {
+    display: flex;
+    gap: 50px;
+    font-weight: 600;
+    list-style: none;
+}
+
+li:hover {
+    color: #30B868;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #469165;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #30B868;
+    color: white;
+}
+
+
+/* Hero section styles */
+.hero-section {
+   background-image: url('../assets/hero-bg.png');
+   background-size: cover;
+   background-position: center;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.h-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: medium;
+    background: #fff;
+    font-weight: 500;
+    border-radius: 25px;
+    color: #469165;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 4em;
+    color: white;
+}
+#structured-thinking {
+    color:white;
+}
+
+#not-just-note-taking {
+    color:#469165;
+}
+
+p {
+    margin: 35px 300px;
+    font-size: large;
+    color: #ffffff;
+}
+
+#h-t-btn {
+    border-color: white;
+    border : 2px solid white;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+#h-t-btn:hover {
+    background-color: white;
+    color: #469165;
+}
