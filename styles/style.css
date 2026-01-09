@@ -186,6 +186,12 @@ h1 {
     max-width: 400px;
 }
 
+.sbs-list
+{
+    display: flex;
+    align-items: center;
+}
+
 .sbs-heading {
     font-size: 2em;
     margin: 15px 0;
@@ -199,7 +205,7 @@ h1 {
 }
 
 .sbs-features {
-    margin: 15px 0;
+    margin: 10px;
 }
 
 /* Get Early Access Section Styles */
